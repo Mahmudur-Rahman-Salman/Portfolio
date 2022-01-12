@@ -32,6 +32,13 @@ const Contact = () => {
                             <p className='ms-2 '>Sylhet, Bangladesh</p>
                         </div>
                     </div>
+                    <div className='d-flex' data-aos="fade-right" data-aos-duration="3000">
+                        <a href="www.google.com" target="_blank"><i class="fab fa-facebook fa-2x m-2 text-info"></i></a>
+                        <a href="www.google.com"><i class="fab fa-instagram fa-2x m-2 text-info"></i></a>
+                        <a href="www.google.com"><i class="fab fa-linkedin fa-2x m-2 text-info"></i></a>
+                        <a href="www.google.com"><i class="fab fa-github fa-2x m-2 text-info"></i></a>
+
+                    </div>
 
 
                 </div>
@@ -47,6 +54,7 @@ const Contact = () => {
                             </textarea>
                             <button className="btn btn-outline-light rounded-pill my-3">Send Message</button>
                         </div>
+
                     </Form>
                 </div>
             </div>
