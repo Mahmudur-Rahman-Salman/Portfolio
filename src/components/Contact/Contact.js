@@ -1,4 +1,5 @@
 import React from 'react';
+import { Form } from 'react-bootstrap';
 
 
 const Contact = () => {
@@ -35,16 +36,18 @@ const Contact = () => {
 
                 </div>
                 <div className="col-lg-6" data-aos="zoom-in-up" data-aos-duration="2000">
-                    <div className='container p-5 bg-dark text-dark'>
-                        <h4 className='text-light mb-4'>Message me</h4>
-                        <input type="text" className="form-control" placeholder="Full name" aria-label="First name" />
-                        <br />
-                        <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
-                        <br />
-                        <textarea placeholder="Enter message" className="form-control" id="exampleFormControlTextarea1" rows="3">
-                        </textarea>
-                        <button className="btn btn-outline-light rounded-pill my-3">Send Message</button>
-                    </div>
+                    <Form>
+                        <div className='container p-5 bg-dark text-dark'>
+                            <h4 className='text-light mb-4'>Message me</h4>
+                            <input type="text" className="form-control" placeholder="Full name" aria-label="First name" />
+                            <br />
+                            <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
+                            <br />
+                            <textarea placeholder="Enter message" className="form-control" id="exampleFormControlTextarea1" rows="3">
+                            </textarea>
+                            <button className="btn btn-outline-light rounded-pill my-3">Send Message</button>
+                        </div>
+                    </Form>
                 </div>
             </div>
 

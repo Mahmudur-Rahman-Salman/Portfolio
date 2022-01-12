@@ -5,7 +5,7 @@ import Header from '../Header/Header';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import ScrollToTop from "react-scroll-to-top";
-
+import './Home.css'
 
 const Home = () => {
     return (
