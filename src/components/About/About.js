@@ -16,7 +16,6 @@ const About = () => {
                             <h6 className='m-3'> I always stay hungry to learn something new. Currently focused on expanding my knowledge about developing high performing websites and get hired.</h6>
                         </div>
 
-                        <button type="button" className="btn buttoncolor text-light rounded-pill m-2 p-2 " data-aos="zoom-in" data-aos-duration="1500">Read More</button>
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-12" data-aos="fade-up"

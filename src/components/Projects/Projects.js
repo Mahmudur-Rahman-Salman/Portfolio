@@ -59,7 +59,7 @@ const Projects = () => {
         <div className='mt-5 pt-5 container'>
             <h3 className='text-center text-dark'>Projects</h3>
             <div className="underline"></div>
-            <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <div class="row row-cols-1 row-cols-lg-3 g-4 mt-5 pt-5">
                 <div class="col" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="card h-100">
                         <img src={seogram} class="card-img-top" alt="..." />

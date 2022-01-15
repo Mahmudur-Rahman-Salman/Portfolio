@@ -6,6 +6,9 @@ import { Typewriter } from 'react-simple-typewriter'
 
 
 const Intro = () => {
+    const resumeButtonClick = () => {
+        window.open('https://drive.google.com/file/d/1uMnh8gMQxJnrCEEy-LkRx2Iz9OliJFli/view?usp=sharing');
+    }
     return (
         <div className='container'>
             <div className="row align-items-center">
@@ -27,8 +30,8 @@ const Intro = () => {
                         </span>
                     </h1>
 
-                    <Button variant="outline-danger" data-aos="zoom-in" data-aos-duration="1000">Resume</Button>
-                    <Link to="/about"><Button variant="outline-warning" className='ms-3'data-aos="zoom-in" data-aos-duration="1000">About Me</Button></Link>
+                    <Button variant="outline-danger" data-aos="zoom-in" data-aos-duration="1000" onClick={resumeButtonClick}>Resume</Button>
+                    <Link to="/about"><Button variant="outline-warning" className='ms-3' data-aos="zoom-in" data-aos-duration="1000">About Me</Button></Link>
 
                 </div>
                 <div className="col-md-6" data-aos="fade-down" data-aos-duration="3000">

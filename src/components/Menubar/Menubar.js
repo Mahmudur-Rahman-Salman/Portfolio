@@ -1,10 +1,13 @@
 import React from 'react';
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Menubar.css'
 
 
 const Menubar = () => {
+    const resumeButtonClick = () => {
+        window.open('https://drive.google.com/file/d/1uMnh8gMQxJnrCEEy-LkRx2Iz9OliJFli/view?usp=sharing');
+    }
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "black" }} variant="dark" >
@@ -18,7 +21,7 @@ const Menubar = () => {
                             <Link to="/projects" className="link m-3 text-light  fs-5">Projects</Link>
                             <Link to="/skills" className="link m-3 text-light  fs-5">Skills</Link>
                             <Link to="/contact" className="link m-3 text-light  fs-5">Contact</Link>
-                            <Link to="#" className="link m-3 text-light fs-5"><Button variant="outline-secondary" className='text-light' data-aos="zoom-in" data-aos-duration="1000">Resume</Button></Link>
+                            <button type="button" className="btn btn-outline-danger text-light  m-2 p-2 " data-aos="zoom-in" data-aos-duration="1500" onClick={resumeButtonClick}>Resume</button>
 
                         </Nav>
                     </Navbar.Collapse>
