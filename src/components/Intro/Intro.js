@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import profile from '../../img/profile-pic.png';
+import profile from '../../img/profile-picture-linkedin.png';
 import { Typewriter } from 'react-simple-typewriter'
 
 
