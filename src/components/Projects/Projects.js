@@ -75,7 +75,7 @@ const Projects = () => {
                         <img src={foodCorner} class="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title fw-bold">Food Corner</h5>
-                            <p className="card-text">Complete responsive website for a Food Delivery Business Organization</p>
+                            <p className="card-text">Complete responsive website for a Food Delivery Business Organization.</p>
                             <button type="button" className="btn btn-primary" onClick={foodCornerGithubClick}>Client Site</button>
                             <button type="button" className="btn btn-primary ms-2" onClick={foodCornerServerSite}>Server Site</button>
                             <button type="button" className="btn btn-primary ms-2" onClick={foodCornerLiveSite}>Live Site</button>
