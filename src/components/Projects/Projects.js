@@ -1,35 +1,13 @@
 import React from 'react';
-// import seogram from '../../img/SeoGram.-site.png';
-// import autowash from '../../img/Auto Wash-site.png';
-// import digigram from '../../img/DigiGram-site.png';
 
-// import { Button } from 'react-bootstrap';
 import seogram from '../../img/SeoGram..png';
 import autowash from '../../img/Auto Wash.png';
 import digigram from '../../img/DigiGram.png';
-import onlineedu from '../../img/OnlineEdu.png';
 import foodCorner from '../../img/Food Corner.png';
 
 
 const Projects = () => {
-    // const seoGithubClick = () => {
-    //     window.open("https://github.com/salman1603/SeoGram.");
-    // };
-    // const seoLiveSite = () => {
-    //     window.open("https://seoagency.netlify.app/");
-    // };
-    // const autowashGithubSite = () => {
-    //     window.open("https://github.com/salman1603/Auto-Wash");
-    // };
-    // const autowashLiveSite = () => {
-    //     window.open("https://auto-wash.netlify.app/");
-    // };
-    // const digigramGithubSite = () => {
-    //     window.open("https://github.com/salman1603/DigiGram-Agency");
-    // };
-    // const digigramLiveSite = () => {
-    //     window.open("https://digigram-agency.netlify.app/");
-    // };
+ 
     const seoGithubClick = () => {
         window.open("https://github.com/salman1603/SeoGram.");
     };
@@ -57,12 +35,7 @@ const Projects = () => {
     const digigramLiveSite = () => {
         window.open("https://digigram-agency.netlify.app/");
     };
-    const onlineEduGithubSite = () => {
-        window.open("https://github.com/salman1603/OnlineEdu");
-    };
-    const onlineEduLiveSite = () => {
-        window.open("https://online-education-edu.netlify.app/");
-    };
+    
 
 
     return (
@@ -131,21 +104,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class="card h-100">
-                        <img src={onlineedu} class="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title fw-bold">OnlineEdu</h5>
-                            <p className="card-text">Responsive website for online educational platform who teach different types of education and sell it.</p>
-                            <button type="button" className="btn btn-primary" onClick={onlineEduGithubSite}>Github</button>
-                            <button type="button" className="btn btn-primary ms-2" onClick={onlineEduLiveSite}>Livesite</button>
-
-                        </div>
-                        <div className="card-footer">
-                            <small className="text-muted">HTML , CSS, Bootstrap, JavaScript, React JS, React router</small>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     );

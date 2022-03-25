@@ -7,7 +7,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Intro = () => {
     const resumeButtonClick = () => {
-        window.open('https://drive.google.com/file/d/1uMnh8gMQxJnrCEEy-LkRx2Iz9OliJFli/view?usp=sharing');
+        window.open('https://drive.google.com/file/d/1BNJC0BYko3nsFFRPskSYfLF_j0HGxw8D/view?usp=sharing');
     }
     return (
         <div className='container'>
@@ -16,7 +16,7 @@ const Intro = () => {
                     <h5 className='text-light'>Hello! I'm</h5>
                     <h1 className='fw-bold text-light'>
                         <span style={{ color: 'goldenRod', fontWeight: 'bold' }}>
-                            {/* Style will be inherited from the parent element */}
+                           
                             <Typewriter
                                 words={['SALMAN', 'A Front End Developer', 'React JS Developer']}
                                 loop={false}

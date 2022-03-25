@@ -3,6 +3,10 @@ import { Form } from 'react-bootstrap';
 
 
 const Contact = () => {
+    const fbClick = () => {
+        window.open('https://www.facebook.com/profile.php?id=100006635527447');
+    }
+
     return (
         <div className='mt-5 pt-5 container'>
             <h3 className='text-center text-dark'>Contact me</h3>
@@ -22,7 +26,7 @@ const Contact = () => {
                         <i class="fas fa-envelope-open fa-2x align-items-center text-danger"></i>
                         <div className='text-start ms-3'>
                             <h5 className='ms-2'>Email</h5>
-                            <p className='ms-2 '>+8801776145803</p>
+                            <p className='ms-2 '>mahmudur.salman@gmail.com</p>
                         </div>
                     </div>
                     <div className='d-flex align-items-center' data-aos="fade-right" data-aos-duration="3000">
@@ -32,13 +36,13 @@ const Contact = () => {
                             <p className='ms-2 '>Sylhet, Bangladesh</p>
                         </div>
                     </div>
-                    <div className='d-flex' data-aos="fade-right" data-aos-duration="3000">
-                        <a href="www.google.com" target="_blank"><i class="fab fa-facebook fa-2x m-2 text-info"></i></a>
+                    {/* <div className='d-flex' data-aos="fade-right" data-aos-duration="3000">
+                        <i class="fab fa-facebook fa-2x m-2 text-info" onClick={fbClick}></i>
                         <a href="www.google.com"><i class="fab fa-instagram fa-2x m-2 text-info"></i></a>
                         <a href="www.google.com"><i class="fab fa-linkedin fa-2x m-2 text-info"></i></a>
                         <a href="www.google.com"><i class="fab fa-github fa-2x m-2 text-info"></i></a>
 
-                    </div>
+                    </div> */}
 
 
                 </div>
