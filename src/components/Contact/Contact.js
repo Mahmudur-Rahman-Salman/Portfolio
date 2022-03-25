@@ -3,9 +3,9 @@ import { Form } from 'react-bootstrap';
 
 
 const Contact = () => {
-    const fbClick = () => {
-        window.open('https://www.facebook.com/profile.php?id=100006635527447');
-    }
+    // const fbClick = () => {
+    //     window.open('https://www.facebook.com/profile.php?id=100006635527447');
+    // }
 
     return (
         <div className='mt-5 pt-5 container'>
